@@ -14,7 +14,12 @@ html {
   margin-right: auto;
   margin-left: auto;
   font-family: 'Roboto Mono', monospace, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -23,24 +28,41 @@ html {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  background-color: #2b2d2f;
+  /*margin: 0 auto 0;*/
+  padding: 2rem;
 }
 
 a {
   text-decoration: none;
   margin-left: 0;
   margin-right: 2rem;
+  color: whitesmoke;
+}
+
+a:hover,
+a:focus {
+  /* font-size: 1.1em; */
+  color: yellow;
 }
 
 .menu__pages {
   display: flex;
-  width: 50%;
+  max-width: 75%;
   justify-content: left;
 }
 
 .menu__github--icon {
   font-size: 1.5em;
+
 }
 
 .fa-github {
   /*font-size: 2.5em;*/
+  color: whitesmoke;
+}
+
+/* MENU STYLES JAVASCRIPT */
+.current {
+  color: yellow;
 }
