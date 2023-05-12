@@ -1,5 +1,7 @@
 /* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -8,7 +10,37 @@ html {
 }
 
 .container {
-  max-width: 20rem;
+  /*max-width: 20rem;*/
   margin-right: auto;
   margin-left: auto;
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-size: 1.5rem;
+}
+
+
+/* Styles MENU */
+.menuElm {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+.menu__pages {
+  display: flex;
+  width: 50%;
+  justify-content: left;
+}
+
+.menu__github--icon {
+  font-size: 1.5em;
+}
+
+.fa-github {
+  /*font-size: 2.5em;*/
 }
