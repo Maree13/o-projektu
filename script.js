@@ -1,6 +1,6 @@
 console.log('funguju!');
 
-// ADDING CLASS CURRENT SO THAT LINKS KEEP YELLOW COLOR WHILE ON THE PAGE
+// ADDING CLASS CURRENT SO THAT LINKS KEEP YELLOW COLOR WHILE ONLOAD THE PAGE
 window.onload = () => {
   const menuLinks = document.querySelectorAll('.menu__pages a');
   menuLinks.forEach((link) => {
