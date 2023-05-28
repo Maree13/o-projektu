@@ -54,6 +54,7 @@ a:focus {
   display: flex;
   max-width: 75%;
   justify-content: left;
+  font-size: 0.8rem;
 }
 
 .menu__github--icon {
@@ -105,5 +106,10 @@ h1 {
   img {
     max-width: 12rem;
     margin-top: 5rem;
+  }
+
+  .menu__pages {
+    font-size: 1rem;
+    align-items: center;
   }
 }
