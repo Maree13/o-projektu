@@ -90,6 +90,7 @@ h1 {
 .paragraph {
   width: 50%;
   text-align: center;
+  color: olive;
 }
 
 @media (min-width: 900px) {
