@@ -55,6 +55,7 @@ a:focus {
   max-width: 75%;
   justify-content: left;
   font-size: 0.8rem;
+  align-items: center;
 }
 
 .menu__github--icon {
@@ -111,6 +112,5 @@ h1 {
 
   .menu__pages {
     font-size: 1rem;
-    align-items: center;
   }
 }
