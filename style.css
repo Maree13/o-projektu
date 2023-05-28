@@ -13,6 +13,7 @@ html {
   /*max-width: 20rem;*/
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: auto;
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1rem;
 }
