@@ -16,6 +16,7 @@ html {
   margin-bottom: auto;
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1rem;
+  background-color: rgb(238, 228, 175);
 }
 
 * {
