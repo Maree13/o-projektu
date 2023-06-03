@@ -103,6 +103,7 @@ h1 {
   text-align: center;
   color: olive;
   padding-bottom: 30px;
+  margin-bottom: auto;
 }
 
 @media (min-width: 900px) {
