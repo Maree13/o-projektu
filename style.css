@@ -104,6 +104,11 @@ h1 {
   color: olive;
 }
 
+.main__sunflower--icon {
+  border: none;
+  width: 3rem;
+}
+
 @media (min-width: 900px) {
   img {
     max-width: 12rem;
