@@ -102,11 +102,7 @@ h1 {
   width: 50%;
   text-align: center;
   color: olive;
-}
-
-.main__sunflower--icon {
-  border: none;
-  width: 3rem;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 900px) {
